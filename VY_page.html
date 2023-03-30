@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Layout Example</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<div class="popup">
+  <button id="close">&times;</button>
+  <h2>PLAN 221: Visualizing Yourself</h2>
+  <div class = "text">
+    <p>
+    *TEXT WILL GO HERE*
+    </p>
+  </div>
+</div>
+    <!--Script-->
+    <script type="text/javascript">
+window.addEventListener("load", function(){
+  setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        100
+    )
+});
+
+
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+});
+    </script>
+
+<div class="container">
+  <div class="column1">
+    <iframe src="frames/VY_leaflet_map.html"></iframe>
+  </div>
+  <div class="column2">
+    <iframe src="frames/VY_leaflet_map_alifia.html"></iframe>
+  </div>
+  <div class="column3">
+    <div class="row1">
+      <iframe src="frames/VY_genres.html" frameBorder="0"></iframe>
+    </div>
+    <div class="row2">
+      <iframe src="frames/VY_listening_time_both.html" frameBorder="0"></iframe>
+    </div>
+  </div>
+</div>
+</body>
+</html>
