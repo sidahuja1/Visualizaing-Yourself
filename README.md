@@ -1,4 +1,4 @@
-# Visualizaing Yourself
+# Visualizing Yourself
 ## Narrative
 Music has been an integral part of human culture for centuries, serving as a medium for expression, entertainment, and communication. Being an important part of our daily routines, we wanted to explore how we interact with music, examining our listening habits and how much overlap exists in our music tastes.As avid music listeners, we both find that music heavily impact our mood, but conversely, our mood can also determine the music we gravitate towards.
 
