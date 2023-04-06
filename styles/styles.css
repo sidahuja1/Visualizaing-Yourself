@@ -15,8 +15,9 @@ body {
 
 h1 {
     color:white;
-    font-family:Proxima Nova
+    font-family:Proxima Nova;
 }
+
 .popup{
     background-color: #2a2a2a;
     width: 800px;
@@ -31,20 +32,22 @@ h1 {
     text-align: center;
     min-height:300px;
     height:600px;
-    overflow: hidden;
 }
 
 .text {
-    max-width: 95%;
+    font-family: Proxima Nova;
+    max-width: 100%;
+    max-height: 450px;
     overflow-y: auto;
     overflow-x: hidden;
-    font-family: Proxima Nova;
     overflow-wrap: break-word;
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify;
-    margin: 20px 0;
+    margin: 20px 10px;
     line-height: 25px;
     color: white;
+    padding-right: 7px;
+    padding-left: 7px;
 }
 
 .popup button{
@@ -61,13 +64,12 @@ h1 {
     outline: none;
     cursor: pointer;
 }
+
 .popup h2{
 	margin-top: -20px;
 	font-family: Proxima Nova;
 	color: white;
 }
-
-
 
 .container {
   display: flex;
@@ -99,6 +101,7 @@ h1 {
 .row1 {
   flex: 1 1 50%;
 }
+
 .row2{
   flex: 1 1 40%;
   margin-bottom: 10px 0;
